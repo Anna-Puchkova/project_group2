@@ -1,11 +1,4 @@
 
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-  border-radius: 32px;  
-}
-
 .advantages-container {
     display: flex;
     padding: 32px 16px;
@@ -29,7 +22,7 @@ img {
    font-size: 16px;
    line-height: 1.5;
    color: #030a06;
-   margin-bottom: 12px;
+   padding-bottom: 12px;
    font-family: "Fira Sans", sans-serif;
 }
 .title-advantage {
@@ -39,8 +32,8 @@ img {
     line-height: 1.2;
     letter-spacing: 0.01em;
     color: #030a06;
-    margin-bottom: 20px;
-}
+    padding-bottom: 20px;
+ }
 p {
   font-size: 16px;
   font-family: 'Fira Sans';
@@ -53,6 +46,12 @@ p {
     flex-direction: column;
     row-gap: 48px;
 }
+.advantages-img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 32px;  
+}
 .equities-item {
     width: 100%;
     display: flex;
@@ -62,10 +61,11 @@ p {
     row-gap: 8px;
 }
 .equities-item-description {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 124px; 
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 124px; 
 }
 .advantages-subtitle { 
     font-family: "Comfortaa", sans-serif;   
@@ -85,34 +85,39 @@ p {
  .sign {
     min-width: 704px;
     height: auto;       
-} 
+ } 
  .subtitle {   
-   margin-bottom: 16px;
+    padding-bottom: 16px;
  }
  .title-advantage {    
-    margin-bottom: 24px;
+    padding-bottom: 24px;
  }
  .text-advantages-explenation {
-   font-size: 18px; 
+    font-size: 18px; 
  }
  .equities-list {
-    width: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    width: 100%;    
     flex-direction: row;
     flex-wrap: wrap;
     row-gap: 24px;
     column-gap: 24px;
     list-style: none;
- }
- .equities-item {
-    width: calc((100% - 24px) / 2 );
+  }
+  .equities-item {
+    display: block;
+    width: calc((100% - 24px) / 2); 
+    height: auto;
+    min-width: 320px;    
     row-gap: 32px;      
- } 
- .equities-list.equities-item:last-child {
-    flex: 0 0 100%;
- }
+  } 
+  .advantages-img {
+    width: 340px;
+    height: 201px;
+  }
+  .equities-list.equities-item:last-child {
+    width: 100%;
+    height: auto;
+   }
   .equities-item-description {
      height: 128px;     
   }
@@ -126,22 +131,22 @@ p {
   }  
  .sign {
     width: 768px;    
- }
+  }
  .title-advantage {
     font-size: 48px;    
- }
- .equities-list {
-    width: 1312px;
-    height: 447px;         
- }
+  }
  .equities-item {
     width: calc((100% - 48px) / 3); 
     row-gap: 24px;   
- }
+  }
+  .advantages-img {
+    width: 421px;
+    height: 201px;
+  }
  .equities-item-description {
-   height: 166px;  
- }
+    height: 166px;  
+  }
  .advantages-subtitle {
     font-size: 32px;    
- }
+  }
 }
