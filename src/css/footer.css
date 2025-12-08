@@ -1,4 +1,4 @@
-.footer {
+/* .footer {
   padding: 20px 0;
 }
 .footer-desc {
@@ -19,7 +19,6 @@
   background-color: #41d1ff;
   transition: 200ms ease;
 }
-/* Footer Styles */
 *,
 *::before,
 *::after {
@@ -69,13 +68,11 @@ textarea {
    margin: 0 auto;
    padding: 0 16px;
 }
-/* Styles for Tablet devices */
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
   }
 }
-/* Styles for Desktop devices */
 @media screen and (min-width: 1440px) {
   .container {
     max-width: 1440px;
@@ -92,7 +89,7 @@ textarea {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
+} */
 /* common */
 .container.footer-container {
     width: 320px;
