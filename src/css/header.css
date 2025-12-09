@@ -172,9 +172,7 @@
 
 .mobile-menu-container {
   position: relative;
-  padding-top: 14px;
-  padding-left: auto;
-  padding-bottom: 92px;
+  padding: 14px 20px 92px 20px;
 
   display: flex;
   flex-direction: column;
