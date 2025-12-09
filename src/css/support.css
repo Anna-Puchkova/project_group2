@@ -144,13 +144,11 @@
     background-position: center;
     background-size: cover;
     border-radius: 40px;
-    background-image: url("/img/support/support1x.jpg");
-    background-image: -webkit-image-set(
-        url("/img/support/support1x.jpg") 1x,
-        url("/img/support/support2x.jpg") 2x);
-    background-image: image-set(
-        url("/img/support/support1x.jpg") 1x,
-        url("/img/support/support2x.jpg") 2x);
+background-image: url("/img/support/support1x.jpg");
+background-image: -webkit-image-set(url("/img/support/support1x.jpg") 1x,
+url("/img/support/support2x.jpg") 2x);
+background-image: image-set(url("/img/support/support1x.jpg") 1x,
+url("/img/support/support2x.jpg") 2x);
 }
 
 /*        TABLET        */
@@ -182,14 +180,11 @@
         .container-image-support {
         width: 704px;
             height: 428px;
-        background-image: -webkit-image-set(
-            url("/img/support/studio_space_1x_tablet.jpg") 1x,
-            url("/img/support/studio_space_2x_tablet.jpg") 2x
-        );
-        background-image: image-set(
-            url("/img/support/studio_space_1x_tablet.jpg") 1x,
-            url("/img/support/studio_space_2x_tablet.jpg") 2x
-        );
+       
+background-image: -webkit-image-set(url("/img/support/studio_space_1x_tablet.jpg") 1x,
+url("/img/support/studio_space_2x_tablet.jpg") 2x);
+background-image: image-set(url("/img/support/studio_space_1x_tablet.jpg") 1x,
+url("/img/support/studio_space_2x_tablet.jpg") 2x);
     }
 }
 
@@ -223,13 +218,9 @@
     max-width: 644px; 
         height: 767px;
         flex-shrink: 0;
-        background-image: -webkit-image-set(
-            url("/img/support/studio_space_with_sketches_1x_desktop.jpg") 1x,
-            url("/img/support/studio_space_with_sketches_2x_desktop.jpg") 2x
-        );
-        background-image: image-set(
-            url("/img/support/studio_space_with_sketches_1x_desktop.jpg") 1x,
-            url("/img/support/studio_space_with_sketches_2x_desktop.jpg") 2x
-        );
+background-image: -webkit-image-set(url("/img/support/studio_space_with_sketches_1x_desktop.jpg") 1x,
+url("/img/support/studio_space_with_sketches_2x_desktop.jpg") 2x);
+background-image: image-set(url("/img/support/studio_space_with_sketches_1x_desktop.jpg") 1x,
+url("/img/support/studio_space_with_sketches_2x_desktop.jpg") 2x);
     }
 }
