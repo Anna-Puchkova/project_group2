@@ -1,11 +1,13 @@
 
 .about{
 padding: 64px 0;
-background-image:
-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
 url("../img/about/about1x.jpg");
-background-image:
-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+-webkit-image-set(
+url("../img/about/about1x.jpg") 1x,
+url("../img/about/about2x.jpg") 2x);
+background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
 image-set(url("../img/about/about1x.jpg") 1x,
 url("../img/about/about2x.jpg") 2x);
 background-repeat: no-repeat;
@@ -49,11 +51,12 @@ width: 573px;
 }
 .about{
 padding: 80px 0;
-background-image:
-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
 url("../img/about/feature_1x_tablet.jpg");
-background-image:
-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+-webkit-image-set(url("../img/about/feature_1x_tablet.jpg") 1x,
+url("../img/about/feature_2x_tablet.jpg") 2x);
+background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
 image-set(url("../img/about/feature_1x_tablet.jpg") 1x,
 url("../img/about/feature_2x_tablet.jpg") 2x);
 max-width: 1439px;
@@ -72,14 +75,15 @@ margin-bottom: 24px;
 @media screen and (min-width: 1440px) {
 .about{
 padding: 112px 0 94px;
-background-image:
-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
 url("../img/about/feature1x_desctop.jpg");
-background-image:
-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+-webkit-image-set(url("../img/about/feature1x_desctop.jpg") 1x,
+url("../img/about/feature2x_desctop.jpg") 2x);
+ background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
 image-set(url("../img/about/feature1x_desctop.jpg") 1x,
 url("../img/about/feature2x_desctop.jpg") 2x);
-  max-width: 100%;
+max-width: 100%;
 }
 .title-about{
 
