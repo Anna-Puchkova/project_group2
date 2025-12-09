@@ -36,6 +36,8 @@
 p {
   font-size: 16px;
   font-family: 'Fira Sans';
+  font-weight: 400; 
+  line-height: 1.6; 
 }
 .equities-list {
     min-width: 288px;
@@ -47,18 +49,18 @@ p {
 }
 .advantages-img {
     display: block;
+    box-sizing: border-box;
     height: 198px;
     min-width: 288px;
-    border-radius: 32px; 
-    padding-bottom: 8px; 
+    border-radius: 32px;          
 }
 .equities-item {
     width: 100%;
-    display: block;
-    box-sizing: border-box;
+    display: flex;
     align-items: center;
     justify-content: flex-start;
-    flex-direction: column;    
+    flex-direction: column;  
+    row-gap: 8px;  
 }
 .equities-item-description {
     display: flex;
@@ -74,6 +76,7 @@ p {
     line-height: 1.4;
     letter-spacing: 0.01em;
     color: #030a06;
+    padding-bottom: 8px;
 }
 
 @media screen and (min-width: 768px) {
@@ -105,10 +108,10 @@ p {
     list-style: none;
   }
   .equities-item {
-    display: block;
     width: calc((100% - 24px) / 2); 
     height: 361px;
-    row-gap: 32px;      
+    column-gap: 24px;
+    row-gap: 32px;          
   } 
   .last-child {
      width: 100%;
@@ -116,15 +119,14 @@ p {
   }
  .advantages-img {
     width: 340px;
-    height: 201px;
-    padding-bottom: 32px;
+    height: 201px;    
   }  
   .advantages-img-third {
     width: 704px;
     height: 417px;
   }
   .equities-item-description { 
-     height: 128px;     
+     height: 128px;        
   }  
   .equities-item-description :last-child {
      height: 68px;
@@ -152,7 +154,8 @@ p {
  .equities-item {
     width: calc((100% - 48px) / 3); 
     height: 447px;
-    column-gap: 24px;       
+    column-gap: 24px; 
+    row-gap: 32px;         
   }
   .advantages-img {
     width: 421px;
