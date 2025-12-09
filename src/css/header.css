@@ -73,7 +73,7 @@
 @media screen and (min-width: 1440px) {
  
 .header-container {
-    padding: 13px 64px;
+    padding-left: 64px;
     justify-content: space-between;
   }
   
