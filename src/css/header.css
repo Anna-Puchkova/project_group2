@@ -55,7 +55,9 @@
     padding-right: 12px;
     padding-left: 20px;
   }
-
+.nav-logo{
+  padding-right: 32px;
+}
   .burger-icon {
     width: 24px;
     height: 24px;
@@ -80,6 +82,9 @@
   .burger-btn {
     display: none;
   }
+  .nav-logo{
+  padding-right: 64px;
+}
   .logo-icon {
     width: 106.51px;
     height: 45.65px;
